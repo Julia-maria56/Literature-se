@@ -16,9 +16,7 @@
 ============Árvore invertida=============
 ![Árvore invertida](https://github.com/Julia-maria56/Literature-se/assets/125198189/f865538f-e3a9-40ed-a508-f375df9cff7c)
 ============================================================================================
-Imagens do projeto:
-
-
+===========Imagesns do projeto===========
 >Saiba Mais
 ![saiba-mais](https://github.com/Julia-maria56/Literature-se/assets/125198189/199bfc67-a21b-4a20-8e6c-f96ee5ad8824)
 >Indicações
