@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&display=swap');
+
+body{
+    margin: 0;
+    font-family: "Kreon", serif;
+    font-weight: normal;
+}
+#container{
+    background-color: #D8AAE8;
+    background-size: cover;
+    padding: 2px;
+    height: 1615px;
+}
+#conteudo{
+    background-color: #EDEDED;
+    height: 1565px;
+    width:1300px;   
+    margin: 20px auto;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:column;
+}
+#barra-lateral{
+    background-color: #834792;
+    margin: 0px 0 0px 0;
+    background-size: cover;
+    height: 22px;
+    width:1286px;
+    border-radius: 5px;
+    padding: 24px 7px;
+}
+#elementos-barra{
+    display: flex; 
+    flex-direction: column; 
+    margin-bottom: 15px;
+    align-items: center;
+    margin-top: -20px; 
+    
+}
+#logo{
+    width: 80px;
+    height:45px;
+    
+}
+#texto-barra{
+    color: white;
+    font-size:18px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+#saiba-mais{
+    background-color: #D9D9D9;
+    background-size: cover;
+    width: 1261px;
+    height: 275px;
+    margin-top:20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:column;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Adiciona um drop shadow */
+}
+#texto-saiba-mais{
+    margin-top:15px;
+    margin-left: 40px;
+    font-weight:normal;
+    margin-bottom: 12px;;
+
+}
+#autores{
+    display:flex;
+    flex-direction:row;
+   
+}
+button{
+    border:none;
+    cursor: pointer;
+}
+.informacoes{
+    display:inline-block;
+    width:250px;
+    height:145px;
+    border-radius: 5px;
+}
+.texto-nome-autores{
+    position: absolute;
+    margin-top: 53px; 
+    color:white;
+    font-weight:bold;
+}
+#Socorro-Acioli{
+    background-image: url(../assets/images/autores/socorro.png);
+    margin-left:40px;
+    margin-bottom:35px;
+    margin-top:0px;
+}
+#nome-Socorro-Acioli{
+    margin-left: 140px;
+}
+#Machado-de-Assis{
+    background-image: url(../assets/images/autores/machado.png);
+    margin-left:40px;
+    margin-bottom:35px;
+    margin-top:0px;
+}
+#nome-Machado-de-Assis{
+    margin-left: 118px;
+}
+#Jane-Austen{
+    background-image: url(../assets/images/autores/jane.png);
+    margin-left:40px;
+    margin-bottom:20px;
+    margin-top:0px;
+    width:300px;
+    height:190px;
+    border-radius: 5px;
+}
+#nome-Jane-Austen{
+    color:white;
+    margin-top: 165px;
+    margin-left:208px;
+}
+#Taylor-Jenkins{
+    background-image: url(../assets/images/autores/taylor.png);
+    margin-left:40px;
+    margin-bottom:20px;
+    margin-top:0px;
+}
+#nome-Taylor-Jenkins{
+    margin-left: 102px;
+}
+#indicacoes{
+    display:flex;
+    flex-direction:column;
+    margin-top:5px;
+    margin-left: 1px;
+}
+#texto-indicacoes{
+    margin-top:70px;
+    margin-left: 40px;
+    font-weight: normal;
+}
+.blocos-roxos{
+    background-color: #D091E5;
+    margin-left:20px;
+    margin-right:20px;
+    width: 1260px;
+    height: 330px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:column;
+    margin-bottom:30px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+.texto{
+    margin-left:20px;
+    margin-right:20px;
+}
+.paragrafo-texto{
+    font-style: italic;
+    padding:-3px;
+    position: relative; 
+    top: -10px;
+}
+
+.imagens-seis-livros{
+    display:flex;
+    flex-direction:row;
+    position: relative; 
+    top: 10px;
+}
+.imagens-livros{
+    margin-left:24px;
+    margin-right:20px;
+    width:135px;
+    height:190px;
+    border-radius: 5px;
+}
+#o-cortico{
+    background-image: url(../assets/images/classicos/o-cortiço.png);
+    margin-left:20px;
+}
+#o-retrato{
+    background-image: url(../assets/images/classicos/o-retrato.png);
+}
+#a-revolucao-dos-bichos{
+    background-image: url(../assets/images/classicos/a-revolucao.png);
+}
+#mulherzinhas{
+    background-image: url(../assets/images/classicos/mulherzinhas.png);
+}
+#anne-de-green-gables{
+    background-image: url(../assets/images/classicos/anne.png);
+}
+#dom-casmurro{
+    background-image: url(../assets/images/classicos/dom-casmurro.png);
+}
+#o-alienista{
+    background-image: url(../assets/images/classicos/o-alienista.png);
+}
+#clube-do-livro{
+    margin-left:20px;
+    background-image: url(../assets/images/comedias/clube-do-livro.png);
+}
+#melhor-que-nos-filmes{
+    background-image: url(../assets/images/comedias/melhor-que-nos-filmes.png);
+}
+#no-calor-do-momento{
+    background-image: url(../assets/images/comedias/no-calor-do-momento.png);
+}
+#taticas-do-amor{
+    background-image: url(../assets/images/comedias/taticas-do-amor.png);
+}
+#perdida{
+    background-image: url(../assets/images/comedias/perdida.png);
+}
+#diario-de-bridget-jones{
+    background-image: url(../assets/images/comedias/o-diario-de-bridget.png);
+}
+#ela-fica{
+    background-image: url(../assets/images/comedias/ela-fica.png);
+}
+#luzes-do-norte{
+    background-image: url(../assets/images/brasileiros/luzes-do-norte.png);
+}
+#eu-receberia-as-piores{
+    background-image: url(../assets/images/brasileiros/eu-receberia-as-piores.png);
+}
+#a-cabeca-do-santo{
+    background-image: url(../assets/images/brasileiros/a-cabeca-do-santo.png);
+}
+#contos-machado{
+    background-image: url(../assets/images/brasileiros/contos-machado.png);
+}
+#torto-arado{
+    background-image: url(../assets/images/brasileiros/torto-arado.png);
+}
+#cafeina{
+    background-image: url(../assets/images/brasileiros/cafeina.png);
+}
+#tudo-e-rio{
+    background-image: url(../assets/images/brasileiros/tudo-e-rio.png);
+}

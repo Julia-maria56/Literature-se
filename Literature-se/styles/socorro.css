@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Kreon:wght@300..700&display=swap');
+body{
+    margin: 0;
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding:0;
+}
+#container{
+    background-color: #D8AAE8;
+    background-size: cover;
+    padding: 2px;
+    height: 905px;
+}
+#conteudo{
+    background-color: #EDEDED;
+    height: 855px;
+    width:1205px;   
+    margin: 20px auto;
+    border-radius: 5px;
+}
+#barra-superior{
+    background-color: #834792;
+    width:1191px;
+    margin: 0px 0 0px 0;
+    background-size: cover;
+    height:32px;
+    padding: 24px 7px;
+}
+#elementos-barra-superior{
+    display: flex; 
+    flex-direction: column; 
+    margin-top: -17px;
+    align-items: center;
+}
+#logo{
+    width: 80px;
+    height:50px;
+    margin-left: -10px;
+    
+}
+#texto-barra{
+    color: white;
+    font-size:18px;
+    margin-top: 0px;
+    margin-left: -5px;
+    font-weight: bold;
+}
+#barra-inferior{
+    background-color: #834792;
+    width:1205px;
+    height:34px;
+    margin-top:752px;
+    position: absolute;
+}
+#barra-lateral-esquerda{
+    background-color: #834792;
+    width: 34px;
+    height:765px;
+    margin-top:0px;
+    margin-right:auto;
+    position: absolute;  
+}
+#barra-lateral-direita{
+    background-color: #834792;
+    width: 34px;
+    height:765px;
+    margin-top:0px;
+    margin-left: 1171px;  
+    position: absolute;    
+}
+#assunto{
+    display:flex;
+    flex-direction:row;
+    margin-top: 800px;
+    margin-left: -74px;
+}
+#foto-lista{
+    display:flex;
+    flex-direction:column;
+}
+#foto{
+    background-image: url(../assets/images/socorro/socorro.png);
+    margin-top:-759px;
+    margin-left:137px;
+    margin-right:20px;
+    width:525px;
+    height:290px;
+    border-radius:5px;
+    position:absolute;
+}
+#lista{
+    background-color: #B280C3;
+    width:230px;
+    margin-top:-405px;
+    margin-left:297px;
+    margin-right:20px;
+    font-weight:bold;
+}
+#lista-1{
+    margin:10px;
+}
+#texto-assunto{
+    margin-top:-765px;
+    margin-left:705px;
+    margin-right:20px;
+    width:510px;
+    font-size:22px;
+    text-align: justify;
+    letter-spacing: 1px; 
+    position:absolute;
+}
