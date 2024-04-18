@@ -18,9 +18,9 @@
 ========================================================================================================================
 
 ==========Imagens do projeto=============
->Saiba Mais
+•Saiba Mais
 ![saiba-mais](https://github.com/Julia-maria56/Literature-se/assets/125198189/199bfc67-a21b-4a20-8e6c-f96ee5ad8824)
->Indicações
+•Indicações
 ![indicacoes1](https://github.com/Julia-maria56/Literature-se/assets/125198189/eb4e459b-40d6-4b88-bf7e-262d55a3f5ab)
 ![indicacoes2](https://github.com/Julia-maria56/Literature-se/assets/125198189/a1fe19d9-1f43-48b0-96c4-16cc3328f980)
 ![indicacoes3](https://github.com/Julia-maria56/Literature-se/assets/125198189/9042611f-8f8f-4a9c-8a35-e6a8865bdcaf)
